@@ -1,0 +1,74 @@
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+body{
+
+  background-color: #011F3F;
+    text-align: center;
+}
+
+#level-title {
+
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+
+  color: #FEF2BF;
+}
+
+.btn {
+
+position: absolute;
+
+left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+width:30vmax;
+height:30vmax;
+border: 10px solid black;
+border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.blue{
+
+
+
+
+    background-color: blue;
+    clip-path: polygon(50% 50%, 0 100%, 0% 0%);
+}
+.red{
+
+
+
+
+
+    background-color: red;
+    clip-path: polygon(50% 50%, 100% 0%, 0% 0%);
+
+}
+.yellow{
+
+
+    background-color: yellow;
+    clip-path: polygon(50% 50%, 100% 100%, 0% 100%);
+
+
+}
+.green{
+
+
+    background-color: green;
+    clip-path: polygon(50% 50%, 100% 0%, 100% 100%);
+
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
